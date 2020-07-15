@@ -120,7 +120,7 @@
   align-items: center;
   justify-content: center;
   padding: 0px 20px;
-  padding-top: 30px;
+  padding-top: 65px;
 }
 
 .message__photo {
@@ -232,4 +232,9 @@
 
 .sent-message {
   animation: sentAnimation 0.5s ease-out forwards;
+}
+
+.message__photo {
+  width: 200px;
+  height: auto;
 }
