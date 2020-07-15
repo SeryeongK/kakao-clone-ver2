@@ -1,0 +1,185 @@
+<!-- chat screen -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+      integrity="sha256-UzFD2WYH2U1dQpKDjjZK72VtPeWP50NoJjd26rnAdUI="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Chat Kakao Clone</title>
+  </head>
+  <body class="chats-body">
+    <div class="header-wrapper">
+      <div class="status-bar">
+        <div class="status-bar__column">
+          <span class="status-bar__clock">
+            13:54
+          </span>
+        </div>
+        <div class="status-bar__column">
+          <i class="fas fa-clock"></i>
+          <i class="fas fa-volume-mute"></i>
+          <i class="fas fa-wifi"></i>
+          <span class="status-bar__battery-level">100%</span>
+          <i class="fas fa-battery-full"></i>
+        </div>
+      </div>
+      <header class="header">
+        <div class="header__header-column">
+          <a href="index.html" class="header__back-btn">
+            <i class="fas fa-arrow-left"></i>
+          </a>
+          <h1 class="header__title">혼잣말</h1>
+        </div>
+        <div class="header__header-column">
+          <span class="header__icon">
+            <i class="fas fa-search"></i>
+          </span>
+          <span class="header__icon">
+            <i class="fas fa-bars"></i>
+            </i>
+          </span>
+        </div>
+      </header>
+    </div>
+    
+    <main class="chat-screen">
+      <ul class="chat__messages">
+        <span class="chat__timestamp">Tuesday, June 26, 2018</span>
+        <li class="incoming-message message">
+          <img
+            src="https://musicmeta-phinf.pstatic.net/album/002/472/2472138.jpg?type=r360Fll&v=20200218160210"
+            class="m-avatar message___avatar"
+          />
+          <div class="message__content">
+            <iframe width="200" height="auto" src="https://www.youtube.com/embed/Pys30WHgudQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            <span class="message__bubble">
+              혼잣말
+            </span>
+            <span class="message__author">혼잣말</span>
+          </div>
+          <span class="message__timestamp"></span>
+        </li>
+        <li class="sent-message message">
+          <div class="message__content">
+            <span class="message__timestamp"></span>
+            <div class="message__bubble">
+              혼잣말이 늘어가
+            </div>
+          </div>
+        </li>
+        <li class="incoming-message message">
+          <img
+            src="https://musicmeta-phinf.pstatic.net/album/002/472/2472138.jpg?type=r360Fll&v=20200218160210"
+            class="m-avatar message___avatar"
+          />
+          <div class="message__content">
+            <span class="message__bubble">
+              네가 떠난 뒤로
+            </span>
+            <span class="message__author">혼잣말</span>
+          </div>
+          <span class="message__timestamp"></span>
+        </li>
+        <li class="sent-message message">
+          <div class="message__content">
+            <span class="message__timestamp"></span>
+            <div class="message__bubble">
+              이젠 어색하지도 않아 
+            </div>
+          </div>
+        </li>
+        <li class="incoming-message message">
+          <img
+            src="https://musicmeta-phinf.pstatic.net/album/002/472/2472138.jpg?type=r360Fll&v=20200218160210"
+            class="m-avatar message___avatar"
+          />
+          <div class="message__content">
+            <span class="message__bubble">
+              어쩌나
+            </span>
+            <span class="message__author">혼잣말</span>
+          </div>
+          <span class="message__timestamp"></span>
+        </li>
+        <li class="sent-message message">
+          <div class="message__content">
+            <span class="message__timestamp"></span>
+            <div class="message__bubble">
+              아까는 식탁 위에 있던
+            </div>
+          </div>
+        </li>
+        <li class="incoming-message message">
+          <img
+            src="https://musicmeta-phinf.pstatic.net/album/002/472/2472138.jpg?type=r360Fll&v=20200218160210"
+            class="m-avatar message___avatar"
+          />
+          <div class="message__content">
+            <span class="message__bubble">
+              죄 없는 과자봉지만
+            </span>
+            <span class="message__author">혼잣말</span>
+          </div>
+          <span class="message__timestamp"></span>
+        </li>
+        <li class="sent-message message">
+          <div class="message__content">
+            <span class="message__timestamp"></span>
+            <div class="message__bubble">
+              구기고 던지면서
+            </div>
+          </div>
+        </li>
+        <li class="incoming-message message">
+          <img
+            src="https://musicmeta-phinf.pstatic.net/album/002/472/2472138.jpg?type=r360Fll&v=20200218160210"
+            class="m-avatar message___avatar"
+          />
+          <div class="message__content">
+            <span class="message__bubble">
+              화내고 있더라
+            </span>
+            <span class="message__author">혼잣말</span>
+          </div>
+          <span class="message__timestamp"></span>
+        </li>
+        <li class="sent-message message">
+          <div class="message__content">
+            <span class="message__timestamp"></span>
+            <div class="message__bubble">
+              어쩌나
+            </div>
+          </div>
+        </li>
+      </ul>
+    </main>
+    <div class="chat__write--container">
+      <input
+          type="text"
+          class="chat__write"
+          placeholder="Send message"
+          class="chat__write-input"
+          />
+      <div class="chat__icon-left chat__icon">
+        <i class="far fa-plus-square"></i>
+      </div>
+  
+      <div class="chat__icon-right chat__icon">
+        <span class="chat__write-icon">
+          <i class="far fa-smile-wink"></i>
+        </span>
+        <span class="chat__write-icon">
+          <i class="fas fa-microphone"></i>
+        </span>
+      </div>
+    </div>
+    <div class="bigScreen">
+      <span class="bigScreen__text">Please make your screen small!</span>
+    </div>
+  </body>
+</html>
