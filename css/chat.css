@@ -196,12 +196,12 @@
 
 .incoming-message .message__bubble {
   border-bottom-left-radius: 0px;
-  background-image: linear-gradient(to right, #aaa67cc5, #b40d2f);
+  background-image: linear-gradient(to right, #74ebd5, #acb6e5);
 }
 
 .sent-message .message__bubble {
   border-bottom-right-radius: 0px;
-  background-image: linear-gradient(to left, #7486b6ad, #4831ac);
+  background-image: linear-gradient(to left, #ffafbd, #ffc3a0);
 }
 
 @keyframes incomingAnim {

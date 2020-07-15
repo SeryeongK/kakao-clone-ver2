@@ -39,7 +39,7 @@
   background-color: #fce006;
   padding: 10px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   border-radius: 10px;
 }
